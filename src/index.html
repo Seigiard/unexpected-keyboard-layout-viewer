@@ -5,9 +5,11 @@
         <title>Keyboard viewer</title>
         <meta name="viewport" content="width=device-width,initial-scale=1" />
         <meta name="color-scheme" content="light dark" />
-        <link rel="stylesheet" href="./../node_modules/@picocss/pico/scss/pico.classless.scss" />
+        <link
+            rel="stylesheet"
+            href="./../node_modules/@picocss/pico/scss/pico.classless.scss"
+        />
         <link rel="stylesheet" href="./style.css" />
-        <script src="./script.js"></script>
         <script defer type="module" src="./libs.js"></script>
         <meta name="description" content="" />
     </head>
@@ -19,19 +21,36 @@
                     <h1>⌨ Unexpected Keyboard Layout Viewer</h1>
                     <p>
                         Lightweight and privacy-conscious virtual
-                        <a href="https://github.com/Julow/Unexpected-Keyboard">keyboard for Android</a>.
+                        <a href="https://github.com/Julow/Unexpected-Keyboard"
+                            >keyboard for Android</a
+                        >.
                     </p>
                 </hgroup>
                 <p>Use this tool to create a custom layout.</p>
             </header>
             <div x-cloak id="input">
-                <input type="file" id="file" name="file" accept=".xml" @change="readFile(event)" />
+                <input
+                    type="file"
+                    id="file"
+                    name="file"
+                    accept=".xml"
+                    @change="readFile(event)"
+                />
             </div>
             <div x-cloak id="editor">
-                <textarea x-model="textarea" name="textarea" id="textarea" cols="30" rows="10"></textarea>
+                <textarea
+                    x-model="textarea"
+                    name="textarea"
+                    id="textarea"
+                    cols="30"
+                    rows="10"
+                ></textarea>
             </div>
             <div x-cloak id="title">
-                <h3 x-show="keyboard?.attributes" x-text="keyboard?.attributes?.name"></h3>
+                <h3
+                    x-show="keyboard?.attributes"
+                    x-text="keyboard?.attributes?.name"
+                ></h3>
             </div>
             <div x-cloak id="view" class="keyboard">
                 <template x-for="row in keyboard.rows">
@@ -51,15 +70,42 @@
                             >
                                 <div class="key_inner">
                                     <div class="keycap">
-                                        <div class="keycap_text_0" x-text="getKey(key.attributes.key0)"></div>
-                                        <div class="keycap_text_1" x-text="getKey(key.attributes.key1)"></div>
-                                        <div class="keycap_text_2" x-text="getKey(key.attributes.key2)"></div>
-                                        <div class="keycap_text_3" x-text="getKey(key.attributes.key3)"></div>
-                                        <div class="keycap_text_4" x-text="getKey(key.attributes.key4)"></div>
-                                        <div class="keycap_text_5" x-text="getKey(key.attributes.key5)"></div>
-                                        <div class="keycap_text_6" x-text="getKey(key.attributes.key6)"></div>
-                                        <div class="keycap_text_7" x-text="getKey(key.attributes.key7)"></div>
-                                        <div class="keycap_text_8" x-text="getKey(key.attributes.key8)"></div>
+                                        <div
+                                            class="keycap_text_0"
+                                            x-text="getKey(key.attributes.key0)"
+                                        ></div>
+                                        <div
+                                            class="keycap_text_1"
+                                            x-text="getKey(key.attributes.key1)"
+                                        ></div>
+                                        <div
+                                            class="keycap_text_2"
+                                            x-text="getKey(key.attributes.key2)"
+                                        ></div>
+                                        <div
+                                            class="keycap_text_3"
+                                            x-text="getKey(key.attributes.key3)"
+                                        ></div>
+                                        <div
+                                            class="keycap_text_4"
+                                            x-text="getKey(key.attributes.key4)"
+                                        ></div>
+                                        <div
+                                            class="keycap_text_5"
+                                            x-text="getKey(key.attributes.key5)"
+                                        ></div>
+                                        <div
+                                            class="keycap_text_6"
+                                            x-text="getKey(key.attributes.key6)"
+                                        ></div>
+                                        <div
+                                            class="keycap_text_7"
+                                            x-text="getKey(key.attributes.key7)"
+                                        ></div>
+                                        <div
+                                            class="keycap_text_8"
+                                            x-text="getKey(key.attributes.key8)"
+                                        ></div>
                                     </div>
                                 </div>
                             </div>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- width: 11em -->
+<keyboard name="ЙЦУКЕН (Тест)" bottom_row="false" script="cyrillic">
+  <row height="0.7">
+    <key width="1.1" key0="@" />
+    <key width="1.1" key0="&amp;" />
+    <key width="1.1" key0="#" key3="%" />
+    <key width="1.1" key0="$" key3="€" />
+    <key width="1.1" key0=":" />
+    <key width="1.1" key0=";" />
+    <key width="1.1" key0="(" key3="*" />
+    <key width="1.1" key0=")" key3="/" />
+    <key width="1.1" key0="-" key3="_" />
+    <key width="1.1" key0="+" key3="=" />
+  </row>
+  <row>
+    <key key0="й" key4="ї" />
+    <key key0="ц" />
+    <key key0="у" key4="ў" />
+    <key key0="к" />
+    <key key0="е" key3="ё" key4="є" />
+    <key key0="н" />
+    <key key0="г" key4="ґ" />
+    <key key0="ш" />
+    <key key0="щ" />
+    <key key0="з" />
+    <key key0="х" />
+  </row>
+  <row>
+    <key key0="ф"/>
+    <key key0="ы" key4="и"/>
+    <key key0="в"/>
+    <key key0="а"/>
+    <key key0="п"/>
+    <key key0="р"/>
+    <key key0="о"/>
+    <key key0="л"/>
+    <key key0="д"/>
+    <key key0="ж"/>
+    <key key0="э"/>
+  </row>
+  <row>
+    <key key0="shift" key2="loc capslock"/>
+    <key key0="я"/>
+    <key key0="ч"/>
+    <key key0="с"/>
+    <key key0="м"/>
+    <key key0="и" key4="і"/>
+    <key key0="т"/>
+    <key key0="ь" key3="ъ" key4="'"/>
+    <key key0="б"/>
+    <key key0="ю"/>
+    <key key0="backspace" key2="loc delete"/>
+  </row>
+  <row height="0.9">
+    <key width="1.44" key0="switch_numeric" key4="switch_emoji" />
+    <key width="1.1" key0="," key1="&quot;" key2="'" />
+    <key width="4.83" key0="space" key5="cursor_left" key6="cursor_right" slider="true"/>
+    <key width="1.07" key0="switch_forward" key4="config" />
+    <!-- <key width="1.7" key0="loc compose" key7="up" key6="right" key5="left" key8="down" /> -->
+    <key width="1.07" key0="." key1="!" key2="?" />
+    <key width="1.44" key0="enter" key2="action"/>
+  </row>
+</keyboard>

@@ -110,3 +110,5 @@ function getKey(key) {
     }
     return keyToUnicodeMap.get(key) || key;
 }
+
+globalThis.getKey = getKey;

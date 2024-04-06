@@ -30,6 +30,8 @@ function initData() {
     };
 }
 
+globalThis.initData = initData;
+
 function parseTextToXml(text) {
     if (!text) {
         return null;

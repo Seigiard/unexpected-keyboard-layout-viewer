@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- width: 11em -->
 <keyboard name="ЙЦУКЕН (Тест)" bottom_row="false" script="cyrillic">
-  <row height="0.7">
-    <key width="1.1" key0="@" />
-    <key width="1.1" key0="&amp;" />
-    <key width="1.1" key0="#" key3="%" />
-    <key width="1.1" key0="$" key3="€" />
-    <key width="1.1" key0=":" />
-    <key width="1.1" key0=";" />
-    <key width="1.1" key0="(" key3="*" />
-    <key width="1.1" key0=")" key3="/" />
-    <key width="1.1" key0="-" key3="_" />
-    <key width="1.1" key0="+" key3="=" />
+  <row height="0.9">
+    <key width="1.1" key0="@" key2="1" key3="©" />
+    <key width="1.1" key0="&amp;" key2="2" />
+    <key width="1.1" key0="#" key2="3" key3="%" />
+    <key width="1.1" key0="$" key2="4" key3="€" />
+    <key width="1.1" key0=":" key2="5" />
+    <key width="1.1" key0=";" key2="6" />
+    <key width="1.1" key0="(" key2="7" key3="*" />
+    <key width="1.1" key0=")" key2="8" key3="/" />
+    <key width="1.1" key0="-" key2="9" key3="_" />
+    <key width="1.1" key0="+" key2="0" key3="=" />
   </row>
   <row>
     <key key0="й" key4="ї" />
@@ -53,12 +53,10 @@
     <key key0="backspace" key2="loc delete"/>
   </row>
   <row height="0.9">
-    <key width="1.44" key0="switch_numeric" key4="switch_emoji" />
+    <key width="1.41" key0="switch_numeric" key3="config" key4="switch_emoji" />
     <key width="1.1" key0="," key1="&quot;" key2="'" />
-    <key width="4.83" key0="space" key5="cursor_left" key6="cursor_right" slider="true"/>
-    <key width="1.07" key0="switch_forward" key4="config" />
-    <!-- <key width="1.7" key0="loc compose" key7="up" key6="right" key5="left" key8="down" /> -->
-    <key width="1.07" key0="." key1="!" key2="?" />
-    <key width="1.44" key0="enter" key2="action"/>
+    <key width="6" key0="space" key5="cursor_left" key6="cursor_right" key7="switch_forward" slider="true"/>
+    <key width="1.1" key0="." key1="!" key2="?" />
+    <key width="1.41" key0="enter" key2="action"/>
   </row>
 </keyboard>
